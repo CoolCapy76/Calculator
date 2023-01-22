@@ -1,0 +1,40 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" 
+        Height="540" Width="335"
+        >
+
+    <Grid>
+
+
+        <Button x:Name ="division" Content="/" Margin="246,213,14,236" Width="75" Height="75" Background="Orange" Foreground="White"/>
+        <Button x:Name ="three" Content="3" Margin="171,213,89,236" Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="two" Content="2" Margin="96,213,164,236"   Width="75" Height="75" Background="White" Foreground="Black" />
+        <Button x:Name ="one" Content="1" Margin="21,213,239,236"   Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="five" Content="5" Margin="96,288,164,161"  Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="six" Content="6" Margin="171,288,89,161"   Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="multi" Content="x" Margin="246,288,14,161"  Width="75" Height="75" Background="Orange" Foreground="White"/>
+        <Button x:Name ="four" Content="4" Margin="21,288,239,161"  Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="minus" Content="-" Margin="246,362,14,87"   Width="75" Height="75" Background="Orange" Foreground="White"/>
+        <Button x:Name ="nine" Content="9" Margin="171,362,89,87"   Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="eight" Content="8" Margin="96,362,164,87"  Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="seven" Content="7" Margin="21,362,239,87"   Width="75" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="plus" Content="+" Margin="245,437,15,12"     Width="75" Height="75" Background="Orange" Foreground="White"/>
+        <Button x:Name ="fulldel" Content="C" Margin="96,138,164,311" Width="75" Height="75" Background="Red"/>
+        <Button x:Name ="zero" Content="0" Margin="21,437,89,12"      Width="225" Height="75" Background="White" Foreground="Black"/>
+        <Button x:Name ="Del"  Content="DEL" Margin="171,138,89,311"  Width="75" Height="75" Background="Orange" Foreground="White" />
+        <Button x:Name ="equal"  Content="=" Margin="246,138,14,311"  Width="75" Height="75" Background="DeepSkyBlue" Foreground="White"/>
+
+        <TextBox IsReadOnly="True" TextWrapping="Wrap" Text="equetions" Margin="80,38,15,0" HorizontalContentAlignment="Right" VerticalAlignment="Top" Width="240" FontSize="50" Height="80"/>
+
+
+
+    </Grid>
+    
+    
+</Window>
